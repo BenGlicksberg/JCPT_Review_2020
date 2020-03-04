@@ -9,11 +9,11 @@ TBD
 
 ## Process and Dataset
 
-This document will detail the process for obtaining the data and generating Figure 1 (panels a and b) in the main text. 
+This document will detail the process for obtaining the data and generating [Figure 1](https://github.com/BenGlicksberg/JCPT_Review_2020/blob/master/Figure1.pdf) (panels a and b) in the main text. 
 
 ### Code to generate figure
 
-The code to generate Figure 1 (panels A and B) can be found in (figure1.R)[]
+The code to generate Figure 1 (panels A and B) can be found in (figure1.R)[https://github.com/BenGlicksberg/JCPT_Review_2020/blob/master/figure1.R]
 
 ### Clinical trials dataset source
 
@@ -37,3 +37,32 @@ The clinical trials breakdown by country plot was created using the rworldmap (v
 ### Generating the clinical trial count by time figure
 
 For this figure, we restricted the dataset to only active, recruiting, or completed statuses. Specifically, we filtered for “Recruiting”, “Completed”, “Not yet recruiting”, “Enrolling by invitation”, or “Active, not recruiting” in the Status field, removing 34 trials. We also restricted to trial start years on or before 2019, which resulted in 63 trials being removed. This plot was generated using ggplot2 (version 3.1.0).
+
+---
+
+## License and Attribution
+
+MIT License
+
+Copyright (c) 2020 BenGlicksberg
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+### Country codes file attribution
+As mentioned, the [country_codes.csv](https://github.com/BenGlicksberg/JCPT_Review_2020/blob/master/country_codes.csv) file was obtained from the GitHub of [**lukes**](https://github.com/lukes) within the [*ISO-3166-Countries-with-Regional-Codes*](https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes) repo. That work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. 
