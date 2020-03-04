@@ -13,7 +13,7 @@ This document will detail the process for obtaining the data and generating [Fig
 
 ### Code to generate figure
 
-The code to generate Figure 1 (panels A and B) can be found in (figure1.R)[https://github.com/BenGlicksberg/JCPT_Review_2020/blob/master/figure1.R]
+The code to generate Figure 1 (panels A and B) can be found in [figure1.R](https://github.com/BenGlicksberg/JCPT_Review_2020/blob/master/figure1.R).
 
 ### Clinical trials dataset source
 
