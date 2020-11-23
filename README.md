@@ -3,7 +3,7 @@
 
 ### Manuscript Information
 
-TBD
+Russak, Adam J., et al. "Machine Learning in Cardiology—Ensuring Clinical Impact Lives Up to the Hype." Journal of Cardiovascular Pharmacology and Therapeutics (2020): 1074248420928651.
 
 ---
 
